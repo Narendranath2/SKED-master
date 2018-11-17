@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/timetable"
+            android:title="Time Table" />
+        <item
+            android:id="@+id/subjects"
+            android:title="Subjects" />
+        />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="KLEF Services">
+            <menu>
+                <item
+                    android:id="@+id/klefsite"
+                    android:title="KLEF Website" />
+                <item
+                    android:id="@+id/klefmoodle"
+                    android:title="KLEF Moodle" />
+            </menu>
+        </item>
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contactandsupport"
+                android:title="Support" />
+            <item
+                android:id="@+id/share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

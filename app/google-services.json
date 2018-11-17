@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "19404370170",
+    "firebase_url": "https://roostergames-ad8b2.firebaseio.com",
+    "project_id": "roostergames-ad8b2",
+    "storage_bucket": "roostergames-ad8b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19404370170:android:131cdb427434149b",
+        "android_client_info": {
+          "package_name": "com.roostergames.www.sked"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19404370170-u93lu6ak7895qhcd3l52bv3fhb7ivro5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roostergames.www.sked",
+            "certificate_hash": "43124803b443732559b7a25de71be5fd9c383cb3"
+          }
+        },
+        {
+          "client_id": "19404370170-r9ej571na3fc89s5ns0djakcd430btuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAyEEqo_nQNjAzIpXU64Sadutklgc8CGrM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19404370170-r9ej571na3fc89s5ns0djakcd430btuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

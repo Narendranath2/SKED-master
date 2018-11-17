@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.roostergames.www.sked">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/skedlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LoginScreen" />
+        <activity android:name=".SignupScreen" />
+        <activity
+            android:name=".HomeScreen"
+            android:label="@string/title_activity_home_screen"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".KlefSite" />
+        <activity android:name=".KlefMoodle" />
+        <activity android:name=".SubjectsScreen" />
+        <activity android:name=".TimetableScreen" />
+        <activity
+            android:name=".SubjectContenetScreen"
+            android:label="@string/title_activity_subject_contenet_screen"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".OtpScreen" />
+        <activity android:name=".PasswordResetScreen" />
+        <activity android:name=".RegisterComplaintScreen" />
+        <activity android:name=".MemeScreen" />
+        <activity android:name=".QuoteScreen" />
+    </application>
+
+</manifest>
